@@ -1,5 +1,6 @@
 import Counter from "./components/Counter";
 import LoginForm from "./components/LoginForm";
+import PostList from "./components/PostList";
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
       <section>
       <LoginForm/>
       </section>
+      <section>
+        <PostList/>
+        </section>
     </main>
   );
 }
